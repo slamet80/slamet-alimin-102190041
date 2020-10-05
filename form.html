@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>latihan membuat form</title>
+    <style>
+      body{
+        background-color: rgb(198, 245, 245);
+      }
+      
+    </style>
+  </head>
+<body>
+
+<h2>Contoh Membuat form registrasi</h2>
+
+<form action="register">
+  <table>
+    <tr>
+      <td><label for="nama">Nama</label></td>
+      <td>:</td>
+      <td><input type="text" name="nama" placeholder="Nama lengkap"></td>
+    </tr>
+    <tr>
+      <td><label for="alamat">Alamat</label></td>
+      <td>:</td>
+      <td><input type="text" name="alamat" placeholder="Alamat Sekarang"></td>
+    </tr>
+    <tr>
+      <td><label for="jk">Jenis Kelamin</label></td>
+      <td>:</td>
+      <td>
+        <input type="radio" name="jk" value="laki-laki">Laki-Laki<br>
+        <input type="radio" name="jk" value="perempuan">Perempuan
+      </td>
+    </tr>
+    <tr>
+      <td><label for="username">Username</label></td>
+      <td>:</td>
+      <td><input type="text" name="username" placeholder="Username"></td>
+    </tr>
+    <tr>
+      <td><label for="passwd">Password</label></td>
+      <td>:</td>
+      <td><input type="password" name="passwd"></td>
+    </tr>
+    <tr>
+      <td>
+        <input type="submit" value="kirim">
+        <input type="reset" value="Reset">
+      </td>
+    </tr>
+  </table>
+
+</form> 
+
+</body>
+</html>
